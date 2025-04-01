@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <title>Flexbox Lab</title>
+  </head>
+  <body>
+    <h1>Flexbox Lab</h1>
+    <p>
+      All boxes have a height of 50px. The only colours used for boxes are light
+      blue and grey.
+    </p>
+
+    <h2>Two equally sized columns</h2>
+    <p>The space between the columns and the outer box is 10px.</p>
+    <div class="two-column">
+      <div class="column box-blue">
+        <div class="box-grey"></div>
+      </div>
+      <div class="column box ml-10"></div>
+    </div>
+
+    <h2>Three equally sized columns</h2>
+    <p>
+      The space between the columns and between the columns and the outer box is
+      15px.
+    </p>
+    <div class="three-equal">
+      <div class="column box"></div>
+      <div class="column box ml-15"></div>
+      <div class="column box ml-15"></div>
+    </div>
+
+    <h2>Three unequal columns</h2>
+    <p>
+      The first column is exactly double the width of the other two. The space
+      between the columns and the outer box is 12px.
+    </p>
+    <div class="three-unequal">
+      <div class="column double box"></div>
+      <div class="column box ml-12"></div>
+      <div class="column box ml-12"></div>
+    </div>
+
+    <h2>Four equally sized columns and a footer</h2>
+    <p>
+      The space between the columns and the outer box is 12px. Each inner box
+      has a 2px border.
+    </p>
+    <div class="four-equal-footer">
+      <div class="columns">
+        <div class="column box"></div>
+        <div class="column box ml-12"></div>
+        <div class="column box ml-12"></div>
+        <div class="column box ml-12"></div>
+      </div>
+      <div class="footer"></div>
+    </div>
+  </body>
+</html>

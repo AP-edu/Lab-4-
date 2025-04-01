@@ -1,0 +1,90 @@
+/* General Styles */
+
+/* Base styles for all boxes */
+.box,
+.box-blue,
+.box-grey {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Colours: only light blue and grey and size*/
+
+.box,
+.box-blue {
+  background-color: lightblue;
+}
+
+.box-grey {
+  background-color: grey;
+}
+
+.box-blue .box-grey {
+  width: 90%;
+  height: 80%;
+}
+
+/* Flex container for columns */
+.two-column,
+.three-equal,
+.three-unequal,
+.four-equal-footer .columns {
+  display: flex;
+  background-color: lightblue;
+}
+
+/* Container-specific padding and border */
+.two-column {
+  padding: 10px;
+}
+
+.three-equal {
+  padding: 15px;
+}
+
+.three-unequal {
+  padding: 12px;
+}
+
+.four-equal-footer {
+  padding: 12px;
+  background-color: lightblue;
+}
+
+/* Column default settings */
+.column {
+  flex: 1;
+  background-color: grey;
+}
+
+/* Double width for columns (for three unequal section) */
+.double {
+  flex: 2;
+  background-color: grey;
+  border: 1px solid black;
+}
+
+/* Margin classes  */
+.ml-10 {
+  margin-left: 10px;
+}
+
+.ml-12 {
+  margin-left: 12px;
+  border: 1px solid black;
+}
+
+.ml-15 {
+  margin-left: 15px;
+}
+
+/* Footer  */
+.footer {
+  margin-top: 12px;
+  background-color: grey;
+  padding: 10px;
+  height: 50px;
+  border: 1px solid black;
+}
